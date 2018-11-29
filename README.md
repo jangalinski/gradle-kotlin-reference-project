@@ -9,3 +9,8 @@ This is my playground that also serves as a reference/archetype.
 ## LICENSE 
 
 * [BSD3-revised](docs/LICENSE)
+
+
+## Links
+
+* [What is new in gradle 5?](https://gradle.org/whats-new/gradle-5/)
