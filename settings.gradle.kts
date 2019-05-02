@@ -4,3 +4,5 @@ include("backend")
 include("backend:application")
 
 include("frontend")
+
+include ("application")
