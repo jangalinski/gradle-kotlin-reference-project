@@ -8,6 +8,7 @@ kotlinDslPluginOptions {
   experimentalWarning.set(false)
 }
 
-repositories {
-  jcenter()
+apply {
+  // repos set in /gradle
+  from("../gradle/repositories.gradle.kts")
 }

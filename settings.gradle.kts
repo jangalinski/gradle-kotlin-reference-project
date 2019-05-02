@@ -1,8 +1,10 @@
 rootProject.name = "kotlin-gradle-refarch"
 
-include("backend")
-include("backend:application")
+// spring boot application assembling backend and frontend
+include (":application")
 
-include("frontend")
+// the core game logic
+include(":backend:game")
 
-include ("application")
+// the js frontend
+include(":frontend")
